@@ -1,0 +1,45 @@
+@page {
+  size: Letter;
+  margin: .76in .86in .76in;
+  @bottom-right {
+    content: counter(page);
+    color: #4a4a4a;
+    font: 9pt Arial, sans-serif;
+  }
+}
+* { box-sizing: border-box; }
+html { color: #171717; }
+body { margin: 0; }
+article { font: 11pt/1.37 Georgia, "Times New Roman", serif; }
+p { margin: 0 0 7pt; orphans: 2; widows: 2; }
+h1, h2, h3, h4 {
+  color: #000;
+  font-family: Arial, sans-serif;
+  break-after: avoid-page;
+  orphans: 2;
+  widows: 2;
+}
+h1 { font-size: 24pt; line-height: 1.11; letter-spacing: -.25pt; margin: 0 0 12pt; }
+h2 { font-size: 15pt; line-height: 1.16; margin: 19pt 0 7pt; }
+h3 { font-size: 12pt; line-height: 1.2; margin: 13pt 0 5pt; }
+h4 { font-size: 11pt; line-height: 1.2; margin: 10pt 0 4pt; }
+.metadata { font: 10pt/1.35 Arial, sans-serif; margin: 0 0 12pt; }
+figure, .figure { margin: 12pt 0 4pt; text-align: center; break-inside: avoid-page; }
+.figure.attached { break-after: avoid-page; }
+.figure img { display: inline-block; width: auto; height: auto; max-width: 100%; max-height: 5.2in; }
+.caption, .table-caption { font: 9.3pt/1.32 Arial, sans-serif; color: #222; text-align: left; break-inside: avoid-page; }
+.caption { margin: 5pt 0 12pt; }
+.table-caption { margin: 11pt 0 4pt; break-after: avoid-page; }
+table { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 0 0 12pt; font: 9pt/1.25 Arial, sans-serif; }
+thead { display: table-header-group; }
+tr { break-inside: avoid-page; }
+td, th { border: 1px solid #d9d9d9; vertical-align: middle; padding: 4pt 5pt; overflow-wrap: anywhere; }
+th { background: #edf1f5; color: #000; text-align: left; }
+a { color: #234d77; text-decoration: none; overflow-wrap: anywhere; }
+code { font-family: Consolas, monospace; font-size: .91em; overflow-wrap: anywhere; }
+ol, ul { margin: 3pt 0 9pt; padding-left: 21pt; }
+li { margin-bottom: 3pt; }
+li p { margin: 0 0 4pt; }
+.reference { margin: 0 0 6pt 14pt; text-indent: -14pt; font-size: 10pt; break-inside: avoid-page; }
+hr { border: none; margin: 12pt 0; }
+sup { font-size: .72em; }
