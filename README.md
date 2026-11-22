@@ -8,6 +8,10 @@ Brachyury (TBXT) is a transcription factor that recognizes a T-box DNA sequence 
 
 **The main finding is that the same pocket-B probe can place CypA in two different positions while preserving both modeled binding poses.** In one model CypA intersects the penultimate base pair of a 12-base-pair duplex containing a single T-box element. In another, the entire duplex fits alongside TBXT, the probe and CypA. The models establish a geometric possibility. How often either arrangement forms in solution, and whether recruitment weakens DNA binding, remain open questions. [Overlapping model](TBXT-revision/structures/B-cover.pdb) · [Whole-duplex fit](TBXT-revision/structures/B-clear.pdb)
 
+![Two views of the same pocket-B probe. At left, CypA intersects the DNA near one end. At right, CypA clears the full duplex.](TBXT-preprint/figures/figure1-structures.png)
+
+**Figure 1.** With both probe ends seated, CypA overlaps base pair 11 of 12 in panel A (left). In panel B (right), the same duplex fits alongside TBXT, the probe and CypA.
+
 ## How we tested the geometry
 
 1. **Construct two intact probes.** We linked the crystallographic TBXT fragments from pocket B (PDB 5QS1) and pocket C (5QSE) to a CypA-binding head derived from 9GHY. For each probe we sampled 65,536 linker conformations, placed each head in its own protein pocket and checked for collisions. We repeated the geometry test after adding the resolved volume of TBXT residues 212–221 from the DNA-bound structure 8CDN. This helix enters the DNA minor groove and is missing from both fragment structures. [Static models and methods](TBXT-revision/structures/README.md)
