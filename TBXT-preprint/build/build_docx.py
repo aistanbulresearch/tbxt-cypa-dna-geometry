@@ -62,7 +62,7 @@ def design(document):
     style(document, "Caption", "Arial", 9.5, above=5, below=10, color="222222")
     style(document, "Table Caption", "Arial", 9.5, above=8, below=4, keep=True, color="222222")
     style(document, "Table Cell", "Arial", 9, lines=1.11, color="171717")
-    style(document, "References", "Georgia", 10, below=3, lines=1.08)
+    style(document, "References", "Georgia", 10, below=2, lines=1.0)
     ref_format = document.styles["References"].paragraph_format
     ref_format.left_indent = Pt(15)
     ref_format.first_line_indent = Pt(-15)

@@ -156,6 +156,10 @@ The manuscript, figures and analysis code are publicly available at [https://git
 
 ## Contributions and declarations
 
+### Author contributions
+
+Ozge A. Cavus performed the computational modeling and analyses. Aysegul Kuskucu interpreted the findings in the context of TBXT and chordoma genetics.
+
 ### Computational work and AI assistance
 
 The computational analyses were performed with assistance from GPT-6.2 (OpenAI) through Codex. RDKit was used for ligand conformers and stereochemistry, and OpenMM for molecular dynamics with ff14SB and OpenFF Sage 2.2.1 parameters. AutoDock Vina was used for local ligand optimization and scoring, DeepTernary for ternary structure prediction, and HADDOCK3 and Rosetta for control-model scoring. MMFF94s was used in the additional molecular-mechanics scoring comparisons. The geometric analyses and figures used Python, NumPy, SciPy, pandas and Matplotlib. The evidence index and replay instructions document the inputs and settings for each analysis.
