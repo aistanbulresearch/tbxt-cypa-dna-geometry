@@ -1,0 +1,9 @@
+# CypA ikili bağlanma kontrolü
+
+Deneysel kaynak RCSB PDB 9GHY. Bir CypA ve 44 ağır atomlu A1ILH ligandı. Birinci modelin A protein zincirindeki boş/A alternatif konumları kullanılır. Ligandın iç şekli deneysel konformasyonda sabit kalır. Kristal suları, iyonlar, brachyury, DNA ve sentetik kol yoktur.
+
+Sonuçlara bakmadan tanımlanan tasarım: 64 farklı serbest başlangıç, her biri için normal çekim ve bu çekimi kapatan eşlenik kontrol. Rastgele yön, her eksende ±44 Å içinde başlangıç merkezi, bütün başlangıçlarda ligand–protein minimum ağır atom mesafesi en az 12 Å. CypA koordinat çerçevesi sabittir. Ligand translasyon (eksen başına 1,6 Å standart sapma) ve izotropik eksen etrafında rotasyon (0,15 radyan standart sapma) ile hareket eder. Merkezin ±50 Å kutudan çıkmasına izin verilmez. Her koşuda 200.000 öneri. Önceki üçlü pilot ile karşılaştırma için ilk 40.000 öneri ve daha uzun arama için bunun dahil olduğu 200.000 öneri ayrı raporlanır. Başlangıç ve hareket tohumları sırasıyla 320001 + tekrar ve 420001 + tekrar; eşlenik kollarda aynı normal öneriler ve kabul rastgele sayıları.
+
+Önceki modele ait 1 Å ağır atom ızgarası ve yumuşak itme kullanılır. Aktif koşulda çekim önceki CypA teriminin aynısıdır: atom RMSD değeri r ve merkez uzaklığı d için boyutsuz skor -10 exp(-r²/12,5) -3 exp(-d²/72). Deneysel poz bu terime zaten girdiğinden bu bir arama kontrolüdür. Kontrolde yalnız itme kalır, alternatif fiziksel bir bağlanma modeli olarak yorumlanmaz.
+
+Birincil başarı, her 100 adımda kaydedilen karelerden birinde, proteinin sabit referans çerçevesinde (ligand kendi üzerine yeniden hizalanmadan) ağır atom RMSD ≤3 Å ve en yakın protein–ligand ağır atom mesafesi ≥2,2 Å. Ayrıca 2 Å, 5 Å, herhangi bir yüzeye ≤6 Å yaklaşma ve eşik geçişinin en az üç ardışık kayıt sürmesi raporlanır. Her adımın en iyi RMSD pozu da saklanır. Bilinen kristal pozu, hesaplanmış ölçümün pozitif kontrolüdür. Süreler ve gerçek çözelti bağlanma olasılıkları bu modelden elde edilmez.

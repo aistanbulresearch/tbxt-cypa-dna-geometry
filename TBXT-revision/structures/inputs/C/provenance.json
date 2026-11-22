@@ -1,0 +1,33 @@
+{
+  "pocket": "C",
+  "source_tbxt": "5QSE",
+  "fragment": "O0V",
+  "linker_attachment": "C6",
+  "converted_D177_to_G": true,
+  "rdkit": "2026.09.2",
+  "input_chemistry": "C[C@@H]1NC(=O)[C@H](CCCNC(=O)COCCOCc2cnc(N(C)[C@@H](C)CO)c(F)c2)NC(=O)C2(/C=C/c3ccc4ccc(nc4c3)[C@@H](C)NC(=O)[C@@H]3CCCN(N3)C1=O)COCOC2",
+  "heavy_atoms": 65,
+  "tbxt_atoms": 1376,
+  "cypa_atoms": 1267,
+  "head1_atoms": 13,
+  "head2_atoms": 44,
+  "tbxt_head_gap_A": 3.296760379524115,
+  "cypa_head_gap_A": 2.8492460406219737,
+  "source_sha256": {
+    "5QSE.pdb": "01c868d1fe926be614380159d438d9631b7a1202eb03991c18261e26e698270d",
+    "9GHY.cif": "2a4bdf9c5cc6ca2ba178e08c40078c78377e8d429096269943e5ec07a3d4f0fd",
+    "md-system/C/probe.sdf": "0d2592e23c124cea6bf6cc16c4fe3b380d109f5574860fd01fde2652ec6e3dbf",
+    "md-system/C/map.json": "23e9b18939d124a9ddb2497747e7d56d5cd68525da1fa5845051ad4f221c43ff"
+  },
+  "input_sha256": {
+    "cypa.pdb": "d57502b8be51e34ddc93cf6b309699ff9d1f91e586ed6de470ad5a225a129a13",
+    "head1.sdf": "6b4c963017d3e0f6285e78f65c8b9316147c14997ba451d0f1d0494531eb13a7",
+    "head2.sdf": "4d1b9824c07c21233feae906d32c2f0e6124c49e47268a049af0715e623fe25b",
+    "head_atoms.csv": "e855c8d325825550ad0b91c789d76124b2ad86d7e09dca8c63977a3f1e7bd636",
+    "mask1.sdf": "6b4c963017d3e0f6285e78f65c8b9316147c14997ba451d0f1d0494531eb13a7",
+    "mask2.sdf": "4d1b9824c07c21233feae906d32c2f0e6124c49e47268a049af0715e623fe25b",
+    "probe.pdb": "c8c237c98e8cd465ab91bf01eaf9ee0e2a938aab09e9fae8133b7fef5ef43408",
+    "probe.sdf": "9a024569f71aac49e2bb9d878e8e9dffd3ff02467e91652301d1ed603688ad0f",
+    "tbxt.pdb": "a46c434bf9e791a6af72fcc4591c26490824d4c083bc5fbf4167a8a0c560e19e"
+  }
+}

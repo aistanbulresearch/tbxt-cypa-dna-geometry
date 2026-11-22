@@ -1,0 +1,8 @@
+file,branch,replica,time_ps,proposal,status,dual_head
+representatives/B-on-baseline_failure.pdb,B-on,2,1.5,0,baseline_failure,1
+representatives/B-on-panel_loss.pdb,B-on,2,0.5,4951,panel_loss,1
+representatives/B-near-baseline_failure.pdb,B-near,1,0.5,0,baseline_failure,1
+representatives/B-near-retained_fit.pdb,B-near,3,3.0,6251,retained_fit,1
+representatives/B-off-baseline_failure.pdb,B-off,2,2.5,0,baseline_failure,1
+representatives/B-off-retained_fit.pdb,B-off,3,2.0,8010,retained_fit,0
+representatives/ref-B-on-baseline_failure.pdb,ref-B-on,1,0.5,0,baseline_failure,1

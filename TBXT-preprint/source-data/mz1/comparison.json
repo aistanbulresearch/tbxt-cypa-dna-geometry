@@ -1,0 +1,91 @@
+{
+  "models": 2048,
+  "query": {
+    "model_id": 1287,
+    "haddock_rank": 229,
+    "rosetta_rank": 1877,
+    "BRD4_RMSD_A": 3.1279567868228635,
+    "pp": 277.85238342801114,
+    "pp_rank": 1826.0,
+    "fixed_total": 384.93510197248156,
+    "fixed_total_rank": 1325.0,
+    "fixed_no_strain_rank": 1308.0,
+    "relaxed_total": 319.809822937906,
+    "relaxed_total_rank": 1314.0,
+    "fixed_ligand_relative": 138.88167752655576,
+    "relaxed_ligand_relative": 2.728491383357408,
+    "fixed_stereo_mismatches": 0.0,
+    "relaxed_stereo_mismatches": 0.0,
+    "fixed_min_rc": 0.0,
+    "relaxed_min_rc": 0.0,
+    "fixed_vhl_ligand": -3.768000121414889,
+    "fixed_brd4_ligand": -28.030958860670403,
+    "relaxed_vhl_ligand": 64.67320615250635,
+    "relaxed_brd4_ligand": -25.444258025968857
+  },
+  "top": {
+    "model_id": 381,
+    "haddock_rank": 926,
+    "rosetta_rank": 238,
+    "BRD4_RMSD_A": 9.679768419431976,
+    "pp": -8.539516711441097,
+    "pp_rank": 93.0,
+    "fixed_total": 36.96440219458916,
+    "fixed_total_rank": 1.0,
+    "fixed_no_strain_rank": 12.0,
+    "relaxed_total": 0.5904291191309774,
+    "relaxed_total_rank": 35.0,
+    "fixed_ligand_relative": 74.4257664499984,
+    "relaxed_ligand_relative": -10.326975345956754,
+    "fixed_stereo_mismatches": 0.0,
+    "relaxed_stereo_mismatches": 0.0,
+    "fixed_min_rc": 0.0,
+    "relaxed_min_rc": 0.0,
+    "fixed_vhl_ligand": -1.6913515351073367,
+    "fixed_brd4_ligand": -27.23049600886081,
+    "relaxed_vhl_ligand": 44.01796819183811,
+    "relaxed_brd4_ligand": -24.56104701530928
+  },
+  "sensitivity_top": {
+    "model_id": 1711,
+    "haddock_rank": 11,
+    "rosetta_rank": 2,
+    "BRD4_RMSD_A": 6.857969321602554,
+    "pp": -15.231255237104653,
+    "pp_rank": 2.0,
+    "fixed_total": 75.14039691397988,
+    "fixed_total_rank": 204.0,
+    "fixed_no_strain_rank": 1.0,
+    "relaxed_total": -18.480734628479674,
+    "relaxed_total_rank": 1.0,
+    "fixed_ligand_relative": 119.60533147153129,
+    "relaxed_ligand_relative": -7.909054407237505,
+    "fixed_stereo_mismatches": 0.0,
+    "relaxed_stereo_mismatches": 0.0,
+    "fixed_min_rc": 0.0,
+    "relaxed_min_rc": 0.0,
+    "fixed_vhl_ligand": -2.802440959603031,
+    "fixed_brd4_ligand": -26.43123836084371,
+    "relaxed_vhl_ligand": 29.950368851794586,
+    "relaxed_brd4_ligand": -25.2907938359321
+  },
+  "query_tie_intervals": {
+    "fixed_total": [
+      1325,
+      1325
+    ],
+    "relaxed_total": [
+      1314,
+      1314
+    ],
+    "pp": [
+      1826,
+      1826
+    ],
+    "fixed_no_strain": [
+      1308,
+      1308
+    ]
+  },
+  "models_within_4A": 1
+}

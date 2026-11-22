@@ -1,0 +1,16 @@
+source,other,cypa_CA_RMSD_A
+monomer/B-on,monomer/B-near,30.64531238014297
+monomer/B-on,monomer/B-off,34.04368194324884
+monomer/B-on,ref/B-on,25.046542457720992
+monomer/B-on,ref/B-near,29.971590379603096
+monomer/B-on,ref/B-off,26.890306682433156
+monomer/B-near,monomer/B-off,10.493287697851262
+monomer/B-near,ref/B-on,18.985890968405926
+monomer/B-near,ref/B-near,14.523899409865843
+monomer/B-near,ref/B-off,12.510197144680237
+monomer/B-off,ref/B-on,23.802028691289912
+monomer/B-off,ref/B-near,13.686111487720718
+monomer/B-off,ref/B-off,17.341828407596438
+ref/B-on,ref/B-near,13.786983560948952
+ref/B-on,ref/B-off,24.37537129631739
+ref/B-near,ref/B-off,21.33435694332467

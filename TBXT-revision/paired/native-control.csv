@@ -1,0 +1,3 @@
+gates,proposals,receptor_accepted,native_contact_pairs,identity_gap_A,identity_contacts,identity_accepted,nearest_accepted_id,nearest_accepted_rmsd_A
+primary,8193,21,23,2.3204656860208037,1.0,0,367,0.631099449686562
+strict,8193,0,23,2.3204656860208037,1.0,0,,

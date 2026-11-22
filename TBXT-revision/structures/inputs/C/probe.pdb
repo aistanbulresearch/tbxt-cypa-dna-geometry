@@ -1,0 +1,122 @@
+COMPND    PRB-C-independent-conformer
+HETATM    1 C001 PRB L   1      -4.040   2.073  -3.197  1.00  0.00           C  
+HETATM    2 O002 PRB L   1      -5.212   2.026  -4.012  1.00  0.00           O  
+HETATM    3 C003 PRB L   1      -4.877   1.819  -5.381  1.00  0.00           C  
+HETATM    4 O004 PRB L   1      -3.637   1.150  -5.583  1.00  0.00           O  
+HETATM    5 C005 PRB L   1      -3.450   0.108  -4.621  1.00  0.00           C  
+HETATM    6 C006 PRB L   1      -3.332   0.698  -3.197  1.00  0.00           C  
+HETATM    7 C007 PRB L   1      -1.852   0.983  -2.853  1.00  0.00           C  
+HETATM    8 O008 PRB L   1      -0.949   0.932  -3.689  1.00  0.00           O  
+HETATM    9 N009 PRB L   1      -1.609   1.410  -1.558  1.00  0.00           N  
+HETATM   10 C010 PRB L   1      -3.898  -0.334  -2.219  1.00  0.00           C  
+HETATM   11 C011 PRB L   1      -5.128  -0.302  -1.674  1.00  0.00           C  
+HETATM   12 C012 PRB L   1      -5.674  -1.343  -0.794  1.00  0.00           C  
+HETATM   13 C013 PRB L   1      -4.907  -1.952   0.205  1.00  0.00           C  
+HETATM   14 C014 PRB L   1      -5.441  -2.914   1.051  1.00  0.00           C  
+HETATM   15 N015 PRB L   1      -4.652  -3.464   1.981  1.00  0.00           N  
+HETATM   16 C016 PRB L   1      -7.020  -1.699  -0.921  1.00  0.00           C  
+HETATM   17 C017 PRB L   1      -7.579  -2.662  -0.077  1.00  0.00           C  
+HETATM   18 C018 PRB L   1      -6.794  -3.272   0.914  1.00  0.00           C  
+HETATM   19 C019 PRB L   1      -7.312  -4.233   1.795  1.00  0.00           C  
+HETATM   20 C020 PRB L   1      -6.495  -4.795   2.774  1.00  0.00           C  
+HETATM   21 C021 PRB L   1      -5.170  -4.387   2.840  1.00  0.00           C  
+HETATM   22 C022 PRB L   1      -4.214  -4.928   3.898  1.00  0.00           C  
+HETATM   23 C023 PRB L   1      -3.879  -6.396   3.646  1.00  0.00           C  
+HETATM   24 N024 PRB L   1      -3.003  -4.121   3.877  1.00  0.00           N  
+HETATM   25 C025 PRB L   1      -2.124  -3.984   4.919  1.00  0.00           C  
+HETATM   26 O026 PRB L   1      -2.196  -4.628   5.960  1.00  0.00           O  
+HETATM   27 C027 PRB L   1      -1.034  -2.939   4.618  1.00  0.00           C  
+HETATM   28 N028 PRB L   1      -1.699  -1.643   4.364  1.00  0.00           N  
+HETATM   29 C029 PRB L   1      -0.022  -2.794   5.752  1.00  0.00           C  
+HETATM   30 C030 PRB L   1       1.011  -1.734   5.379  1.00  0.00           C  
+HETATM   31 C031 PRB L   1       0.343  -0.419   4.982  1.00  0.00           C  
+HETATM   32 N032 PRB L   1      -0.763  -0.619   4.028  1.00  0.00           N  
+HETATM   33 C033 PRB L   1      -1.144   0.261   3.001  1.00  0.00           C  
+HETATM   34 O034 PRB L   1      -2.212   0.159   2.380  1.00  0.00           O  
+HETATM   35 C035 PRB L   1      -0.189   1.431   2.680  1.00  0.00           C  
+HETATM   36 C036 PRB L   1      -0.389   2.573   3.669  1.00  0.00           C  
+HETATM   37 N037 PRB L   1      -0.451   1.921   1.325  1.00  0.00           N  
+HETATM   38 C038 PRB L   1       0.072   1.240   0.243  1.00  0.00           C  
+HETATM   39 O039 PRB L   1       0.706   0.194   0.364  1.00  0.00           O  
+HETATM   40 C040 PRB L   1      -0.271   1.836  -1.138  1.00  0.00           C  
+HETATM   41 C041 PRB L   1      -0.143   3.373  -1.148  1.00  0.00           C  
+HETATM   42 C042 PRB L   1      -0.217   4.050  -2.526  1.00  0.00           C  
+HETATM   43 C043 PRB L   1       1.049   3.925  -3.368  1.00  0.00           C  
+HETATM   44 N044 PRB L   1       1.296   2.578  -3.816  1.00  0.00           N  
+HETATM   45 N045 PRB L   1       4.187   0.621   0.319  1.00  0.00           N  
+HETATM   46 C046 PRB L   1       5.376   1.264   0.350  1.00  0.00           C  
+HETATM   47 C047 PRB L   1       4.012  -0.434  -0.516  1.00  0.00           C  
+HETATM   48 C048 PRB L   1       5.001  -0.950  -1.337  1.00  0.00           C  
+HETATM   49 C049 PRB L   1       6.231  -0.303  -1.310  1.00  0.00           C  
+HETATM   50 C050 PRB L   1       6.416   0.797  -0.472  1.00  0.00           C  
+HETATM   51 N051 PRB L   1       5.519   2.341   1.234  1.00  0.00           N  
+HETATM   52 C052 PRB L   1       3.250   3.415   1.246  1.00  0.00           C  
+HETATM   53 O053 PRB L   1       3.134   2.191   4.121  1.00  0.00           O  
+HETATM   54 C054 PRB L   1       4.365   2.759   2.064  1.00  0.00           C  
+HETATM   55 C055 PRB L   1       3.839   1.643   2.996  1.00  0.00           C  
+HETATM   56 C056 PRB L   1       6.437   3.402   0.822  1.00  0.00           C  
+HETATM   57 F057 PRB L   1       7.633   1.365  -0.466  1.00  0.00           F  
+HETATM   58 C058 PRB L   1       4.742  -2.142  -2.208  1.00  0.00           C  
+HETATM   59 O059 PRB L   1       3.994  -1.772  -3.363  1.00  0.00           O  
+HETATM   60 C060 PRB L   1       4.827  -1.479  -4.490  1.00  0.00           C  
+HETATM   61 C061 PRB L   1       3.974  -0.970  -5.654  1.00  0.00           C  
+HETATM   62 O062 PRB L   1       3.724   0.432  -5.539  1.00  0.00           O  
+HETATM   63 C063 PRB L   1       2.572   0.735  -4.763  1.00  0.00           C  
+HETATM   64 C064 PRB L   1       2.525   2.205  -4.326  1.00  0.00           C  
+HETATM   65 O065 PRB L   1       3.480   2.975  -4.387  1.00  0.00           O  
+CONECT    1    2    6
+CONECT    2    3
+CONECT    3    4
+CONECT    4    5
+CONECT    5    6
+CONECT    6    7   10
+CONECT    7    8    8    9
+CONECT    9   40
+CONECT   10   11   11
+CONECT   11   12
+CONECT   12   13   13   16
+CONECT   13   14
+CONECT   14   15   15   18
+CONECT   15   21
+CONECT   16   17   17
+CONECT   17   18
+CONECT   18   19   19
+CONECT   19   20
+CONECT   20   21   21
+CONECT   21   22
+CONECT   22   23   24
+CONECT   24   25
+CONECT   25   26   26   27
+CONECT   27   28   29
+CONECT   28   32
+CONECT   29   30
+CONECT   30   31
+CONECT   31   32
+CONECT   32   33
+CONECT   33   34   34   35
+CONECT   35   36   37
+CONECT   37   38
+CONECT   38   39   39   40
+CONECT   40   41
+CONECT   41   42
+CONECT   42   43
+CONECT   43   44
+CONECT   44   64
+CONECT   45   46   47   47
+CONECT   46   50   50   51
+CONECT   47   48
+CONECT   48   49   49   58
+CONECT   49   50
+CONECT   50   57
+CONECT   51   54   56
+CONECT   52   54
+CONECT   53   55
+CONECT   54   55
+CONECT   58   59
+CONECT   59   60
+CONECT   60   61
+CONECT   61   62
+CONECT   62   63
+CONECT   63   64
+CONECT   64   65   65
+END

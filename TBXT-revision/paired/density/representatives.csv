@@ -1,0 +1,5 @@
+file,previous_status,dense_status,branch,replica,time_ps,condition,proposal,seed,local_proposal,sugar_RMSD_A,contact_recovery,TBXT_gap_A,probe_gap_A,CypA_gap_A
+representatives/B-on-baseline_failure-to-panel_loss.pdb,baseline_failure,panel_loss,B-on,2,1.5,closest_baseline,8569,6281,377,2.897994939705798,0.7391304347826086,2.706133553800933,10.511087575895449,1.4646011675031003
+representatives/B-off-baseline_failure-to-retained_fit.pdb,baseline_failure,retained_fit,B-off,3,4.5,closest_full,18815,6282,2431,1.854099172717344,0.8695652173913043,2.6827468365075107,9.859547248262642,11.022475148553692
+representatives/ref-B-on-baseline_failure-to-panel_loss.pdb,baseline_failure,panel_loss,ref-B-on,2,1.5,closest_baseline,14785,6281,6593,2.805069572126113,0.8260869565217391,2.620954570367429,10.091834342527468,2.1278560221008793
+representatives/ref-B-on-baseline_failure-to-retained_fit.pdb,baseline_failure,retained_fit,ref-B-on,2,4.0,closest_full,30702,6283,6126,1.7370254598933406,0.9565217391304348,2.6014582023927297,10.973346307096078,2.6535062614812315

@@ -1,0 +1,31 @@
+{
+  "frames": 200,
+  "elapsed_s": 41.13921679998748,
+  "python": "3.14.3",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "inputs": {
+    "independent-identity-gaps.csv": "49a369111a541e5d091bc8d283f839a865fac0f87f224f02baddde555c5ce181",
+    "outputs/B-occupancy/crystal-heads/frames.csv": "9813c67d45ac649ac1c210cc3c64a0cc1fc18069f76e0c6560f0ad07b82eb060",
+    "work/8CDN.pdb": "d0b4ec482db5073ec3df81ef2cf74904e6d3cc98955af99f214b40afd0f0d634",
+    "work/b-linkers/cases/ref/inputs/B-on.pdb": "fec4143eb136dc3b55247639bbe42fd42f459e9e4e5f9fdbc5f9ebb1e9cd239d",
+    "work/b-linkers/cases/ref/systems/B-on/map.json": "044235619a791f5a204be6af8047cc202bbbaea312d158c35c20c15bcc2fc068",
+    "work/b-occupancy/runs/B-near/rep-1/traj-10ps.npz": "b760fbb6a2ad399ebc9ce3cfd6ad04c0206df2c208e920b79847b1b11dadaecb",
+    "work/b-occupancy/runs/B-near/rep-2/traj-10ps.npz": "a8ea0fee4061a45924fc8911378dc098df7834cab46142d301fb35272453a0e2",
+    "work/b-occupancy/runs/B-near/rep-3/traj-10ps.npz": "db00c6a68c28102824f3c041c3d3e60cf83a112206c3fb85e4d730eba1589975",
+    "work/b-occupancy/runs/B-off/rep-1/traj-10ps.npz": "3196a619705547c1f121cfedb3b4758f9b2591ef056e1aefefcfd82d0a2e8131",
+    "work/b-occupancy/runs/B-off/rep-2/traj-10ps.npz": "dd29b207adac16efc1d377c550e92e07516cdf854b7c190d9eb165ec77da1754",
+    "work/b-occupancy/runs/B-off/rep-3/traj-10ps.npz": "5ce5da3a405dd6c871f97f16dafda1c83dbcf8a390824310aa1ac3c2071893be",
+    "work/b-occupancy/runs/B-on/rep-1/traj-10ps.npz": "c057b164eded555714364d5e48feeb283c5d3b0290e56942b692f129f01e5298",
+    "work/b-occupancy/runs/B-on/rep-2/traj-10ps.npz": "a69c6dc3b3ea10a5fd9685e2d3ecb19338f8df5cd3349b97d5011015d69463db",
+    "work/b-occupancy/runs/B-on/rep-3/traj-10ps.npz": "58977b0d586e70b2fdfdc32f53ab70d3883ef824dd8a0b152fcad2603cfef145",
+    "work/b-occupancy/runs/ref-B-on/rep-1/traj.npz": "c5912c61bb4e00d1fa595ec5a48d0c5c13c37e25176380b887044cf1a30f37c5",
+    "work/b-occupancy/runs/ref-B-on/rep-2/traj.npz": "b02d2ed46c8ff2f676abd783b8be1f57cf1eb51f65e3745d4d25aca98d51101e",
+    "work/monomer/inputs/B-near.pdb": "026d01320fd7c6a01d51718e12b800ff2bf18baa68b7f6c5db69338336b4fbf5",
+    "work/monomer/inputs/B-off.pdb": "c399a86405fcb66f4e3b5080dd51627bae06693ab919a614e71cd3db9e7f2241",
+    "work/monomer/inputs/B-on.pdb": "3a68764da49902f7860e36771b5331b41bffd77feb5832f46007feaaf5a65339",
+    "work/monomer/systems/B-near/map.json": "684fdd9908d00e378f27e7a18b0d76613c10c871b2f92bcfd6e390377a9770d8",
+    "work/monomer/systems/B-off/map.json": "d742fc3fb5de0668e711c92f235588e70b4aa04c4c3a6057cc5ae311d1563bd1",
+    "work/monomer/systems/B-on/map.json": "295bb3423578118e5c725c3da5a5eb5e9a13f4e92c0c16da204b9218903f7b37"
+  }
+}

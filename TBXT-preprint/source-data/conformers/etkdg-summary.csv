@@ -1,0 +1,13 @@
+case,prior,ligand_cutoff_A,protein_cutoff_A,N,T,P,TP,TD,TPD,TP_inner_footprint,streams,sparse_TP,steric_factor,steric_factor_finite_bootstrap,steric_factor_lo,steric_factor_hi,coupling_kcal_mol,coupling_kcal_mol_finite_bootstrap,coupling_kcal_mol_lo,coupling_kcal_mol_hi,relative_DNA_access,relative_DNA_access_finite_bootstrap,relative_DNA_access_lo,relative_DNA_access_hi,DNA_penalty_kcal_mol,DNA_penalty_kcal_mol_finite_bootstrap,DNA_penalty_kcal_mol_lo,DNA_penalty_kcal_mol_hi
+B,etkdg,2.2,2.6,39,4,7,0,4,0,0,39,True,0.0,1964,,,,0,,,,0,,,,0,,
+B,etkdg,2.2,3.0,39,4,7,0,4,0,0,39,True,0.0,1964,,,,0,,,,0,,,,0,,
+B,etkdg,2.6,2.6,39,4,7,0,4,0,0,39,True,0.0,1964,,,,0,,,,0,,,,0,,
+B,etkdg,2.6,3.0,39,4,7,0,4,0,0,39,True,0.0,1964,,,,0,,,,0,,,,0,,
+C,etkdg,2.2,2.6,39,7,5,1,7,1,0,39,True,1.1142857142857143,1987,,,-0.0645127488719312,1242,,,1.0,1242,,,-0.0,1242,,
+C,etkdg,2.2,3.0,39,7,5,0,7,0,0,39,True,0.0,1987,,,,0,,,,0,,,,0,,
+C,etkdg,2.6,2.6,39,7,5,1,7,1,0,39,True,1.1142857142857143,1987,,,-0.0645127488719312,1242,,,1.0,1242,,,-0.0,1242,,
+C,etkdg,2.6,3.0,39,7,5,0,7,0,0,39,True,0.0,1987,,,,0,,,,0,,,,0,,
+5T35,etkdg,2.2,2.6,39,11,1,0,0,0,0,39,True,0.0,1287,,,,0,,,,0,,,,0,,
+5T35,etkdg,2.2,3.0,39,11,1,0,0,0,0,39,True,0.0,1287,,,,0,,,,0,,,,0,,
+5T35,etkdg,2.6,2.6,39,6,1,0,0,0,0,39,True,0.0,1287,,,,0,,,,0,,,,0,,
+5T35,etkdg,2.6,3.0,39,6,1,0,0,0,0,39,True,0.0,1287,,,,0,,,,0,,,,0,,

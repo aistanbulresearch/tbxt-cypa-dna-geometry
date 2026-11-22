@@ -1,0 +1,33 @@
+{
+  "pocket": "B",
+  "source_tbxt": "5QS1",
+  "fragment": "NZ1",
+  "linker_attachment": "C4",
+  "converted_D177_to_G": false,
+  "rdkit": "2026.09.2",
+  "input_chemistry": "COc1cc(COCCOCC(=O)NCCC[C@@H]2NC(=O)C3(/C=C/c4ccc5ccc(nc5c4)[C@@H](C)NC(=O)[C@@H]4CCCN(N4)C(=O)[C@H](C)NC2=O)COCOC3)c2sc(N)nc2c1",
+  "heavy_atoms": 64,
+  "tbxt_atoms": 1369,
+  "cypa_atoms": 1267,
+  "head1_atoms": 12,
+  "head2_atoms": 44,
+  "tbxt_head_gap_A": 3.154272182294991,
+  "cypa_head_gap_A": 2.8492460406219737,
+  "source_sha256": {
+    "5QS1.pdb": "3dc16e58f8acbca6a659669ad11e26d18c1f52d2b28c6ba58195353c0e7e7d69",
+    "9GHY.cif": "2a4bdf9c5cc6ca2ba178e08c40078c78377e8d429096269943e5ec07a3d4f0fd",
+    "md-system/B/probe.sdf": "91c6cd70cf75f4f611c84086d884f22889778d6b55e14035104e9c7c7666e497",
+    "md-system/B/map.json": "c2464ecf43c27cf14bf035b0a832b787e199765468867588410eea5f7d766b3e"
+  },
+  "input_sha256": {
+    "cypa.pdb": "d57502b8be51e34ddc93cf6b309699ff9d1f91e586ed6de470ad5a225a129a13",
+    "head1.sdf": "32b06b67a38ee65ddc18bc8ed969189e5e0451dffb88de00713437a966704f63",
+    "head2.sdf": "4d1b9824c07c21233feae906d32c2f0e6124c49e47268a049af0715e623fe25b",
+    "head_atoms.csv": "1e916a938381972e44155f9d98a20b1ed10bf3bfac361cacc04ae88b0eecaeff",
+    "mask1.sdf": "32b06b67a38ee65ddc18bc8ed969189e5e0451dffb88de00713437a966704f63",
+    "mask2.sdf": "4d1b9824c07c21233feae906d32c2f0e6124c49e47268a049af0715e623fe25b",
+    "probe.pdb": "bb9eb17ba4c06abc1e1f6c39b0f17873e7d1bf092bf9625f77d135bd10a4f450",
+    "probe.sdf": "29efedef2d180d83f03c7780a8d6cf7765b641c1611077c02686a3725d20cc73",
+    "tbxt.pdb": "5aedf6f6102155ecf057e0410f88ef5db124400cbd5751d8dfb0060828caf0fd"
+  }
+}

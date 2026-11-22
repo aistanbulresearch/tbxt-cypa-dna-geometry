@@ -1,0 +1,13 @@
+# B occupancy trajectory protocol
+
+The primary ensemble has three 10 ps production branches for each of the original B-on, B-near and B-off poses. Two supplementary 5 ps branches use a second B-on pose with the same stereochemical SMILES and heavy-atom identities. Each branch begins at the last full-solvent frame of its own 50 ps parent. The three parent trajectories for a pose share a prepared geometry. Restarting them adds independent thermal velocities and stochastic histories but retains the positional history of the parent.
+
+## System and propagation
+
+The archived systems contain the TBXT DNA-binding domain, CypA and the complete covalent probe. The partner TBXT copy and DNA are absent. The source preparations use Amber ff14SB protein, TIP3P water, 0.15 M added salt, PME with a 1 nm real-space cutoff, constrained hydrogen bonds and rigid water. The monomer preparer imports the ligand parameterization with its existing atom ordering. These runs use the archived ligand parameters without refitting. Each 300 K Langevin-middle trajectory has a 2 fs integration step, friction of 1 per ps, and a 1 bar Monte Carlo barostat attempted every 25 steps.
+
+The original preparation applied positional restraints for 4 ps and then propagated 50 ps with the restraint force constant set to zero. Restoring an original binary checkpoint requires reconstructing that force. A molecular dynamics branch uses the original system XML, which contains no external restraint. The initial periodic cell and all solute, water and ion coordinates come from the parent checkpoint. A fresh context assigns Maxwell velocities at 300 K. The velocity, Langevin and barostat seeds are distinct across all 11 branches. The measured hardware was native mixed-precision Intel OpenCL with GPU PME.
+
+## Trajectory recording and checks
+
+All branches used 2,838 tracked heavy atoms. The initial snapshot copied the parent coordinates and subsequent snapshots were recorded every 0.5 ps. Full-system parent coordinates and periodic lattice vectors were stored in nm. Trajectory coordinates and cell vectors were stored in Å, energy in kJ/mol, and cell volume in nm³. The two trajectory segments for each primary branch overlapped exactly for the first 11 frames. When a 5 ps trajectory was extended, its binary checkpoint restored its stochastic state. Verification covered all 11 branches, the cohort-specific duration, both coordinate formats, the time grid, topology atom count, parent coordinates, overlapping frames and all 33 random seeds. The [occupancy analysis protocol](analysis-protocol.md) defines atom mapping and geometric registration.

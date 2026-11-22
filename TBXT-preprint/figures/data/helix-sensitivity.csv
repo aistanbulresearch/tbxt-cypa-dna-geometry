@@ -1,0 +1,5 @@
+probe,probe_clearance_A,protein_clearance_A,original_dual_fit,original_whole_duplex_clear,original_CypA_interior_hit,helix_dual_fit,helix_whole_duplex_clear,helix_CypA_interior_hit,helix_to_closest_duplex_min_A
+B,2.2,2.6,110,78,15,110,78,15,3.117636
+B,2.6,3.0,22,15,1,22,15,1,3.117636
+C,2.2,2.6,481,213,26,121,96,1,2.659653
+C,2.6,3.0,213,99,5,56,47,0,2.659653

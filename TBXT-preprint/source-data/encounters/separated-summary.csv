@@ -1,0 +1,5 @@
+label,arm,runs,proposals,frames,min_start_gap_A,x_encounter_runs,y_encounter_runs,both_encounter_runs,x_native_runs,y_native_runs,dual_candidate_runs,dual_valid_runs,dual_DNA_runs,relaxed_dual_valid_runs,relaxed_dual_DNA_runs
+ref,active,24,960000,9624,12.425503210770566,24,24,3,1,0,0,0,0,0,0
+ref,ablated,24,960000,9624,12.425503210770566,24,24,3,2,0,0,0,0,0,0
+long,active,24,960000,9624,12.319932434201142,24,24,6,1,0,0,0,0,0,0
+long,ablated,24,960000,9624,12.319932434201142,24,24,5,2,0,0,0,0,0,0

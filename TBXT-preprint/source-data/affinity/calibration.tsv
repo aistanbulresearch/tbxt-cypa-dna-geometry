@@ -1,0 +1,25 @@
+reference	protein	binding_partner	pdb_ccd	assay	quantity	value	minus_error_or_low	plus_error_or_high	uncertainty	unit	match	validates	source
+TBXT-B	TBXT WT DBD	NZ1 / Z1954800564	5QS1/NZ1	PanDDA X-ray	solution Kd	NA	NA	NA	NA	nM	exact parent	WT pocket B pose	https://www.rcsb.org/structure/5QS1
+TBXT-C	TBXT G177D DBD	O0V / Z2017168803	5QSE/O0V	PanDDA X-ray	solution Kd	NA	NA	NA	NA	nM	exact parent	G177D pocket C pose	https://www.rcsb.org/structure/5QSE
+TBXT-SPR-1b	full-length human TBXT G177D	Newman 1b	7ZK2	SPR equilibrium	Kd	316	90	90	fit SE	uM	other scaffold/pocket	TBXT SPR and quantitative binary positive	https://doi.org/10.1038/s41467-025-56213-1
+TBXT-SPR-2	full-length human TBXT G177D	Newman 2	NA	SPR equilibrium	Kd	19	14	14	fit SE	uM	other scaffold/pocket	TBXT SPR binary positive	https://doi.org/10.1038/s41467-025-56213-1
+TBXT-SPR-10	full-length human TBXT G177D	Newman 10	NA	SPR equilibrium	Kd	8	3	3	fit SE	uM	other scaffold/pocket	TBXT SPR binary positive	https://doi.org/10.1038/s41467-025-56213-1
+CypA-19c	human CypA	19c free primary amine	9GHY/A1ILH	competitive FP	Ki	5.2	1.5	1.5	reported error	uM	exact parent	binary CypA parent pose and affinity	https://doi.org/10.1021/acsmedchemlett.4c00427
+CypA-19a	human CypA	19a branched analog	NA	competitive FP	Ki	0.026	0.009	0.009	reported error	uM	scaffold analog	CypA affinity ordering in FP series	https://doi.org/10.1021/acsmedchemlett.4c00427
+CypA-19e	human CypA	19e alkyl analog	NA	competitive FP	Ki	0.16	0.05	0.05	reported error	uM	scaffold analog	CypA affinity ordering in FP series	https://doi.org/10.1021/acsmedchemlett.4c00427
+CypA-19f	human CypA	19f N-acetylated 19c	NA	competitive FP	Ki	0.43	0.02	0.02	reported error	uM	terminal N-acyl analog	N-acyl analog series affinity positive	https://doi.org/10.1021/acsmedchemlett.4c00427
+CypA-CsA	human CypA	cyclosporin A	2RMB	competitive FP	Ki	0.0093	0.003	0.003	reported error	uM	other scaffold	CypA FP assay positive	https://doi.org/10.1021/acsmedchemlett.4c00427
+TBXT-DNA-WT	full-length human TBXT WT	palindromic T-box DNA	6F58	EMSA	apparent Kd	1.4	1.32	1.53	95pct_CI_bounds	nM	DNA state reference	palindromic DNA binding readout	https://doi.org/10.1038/s41467-025-56213-1
+TBXT-DNA-variant	full-length human TBXT G177D	palindromic T-box DNA	6F59	EMSA	apparent Kd	1.2	1.03	1.35	95pct_CI_bounds	nM	DNA state reference	palindromic DNA binding readout	https://doi.org/10.1038/s41467-025-56213-1
+MZ1-A	BRD4 BD2	MZ1	5T35	reverse ITC, 25 C	Kd	15	1	1	SEM	nM	same benchmark molecule	free ligand to BRD4 BD2	https://doi.org/10.1038/nchembio.2329
+MZ1-B	VCB	MZ1	5T35	reverse ITC, 25 C	Kd	66	6	6	SEM	nM	same benchmark molecule	free ligand to VCB	https://doi.org/10.1038/nchembio.2329
+MZ1-B|A	VCB	BRD4 BD2:MZ1	5T35	reverse ITC, 25 C	conditional Kd	3.7	0.7	0.7	SEM	nM	same benchmark molecule	VCB recruitment to prebound ligand	https://doi.org/10.1038/nchembio.2329
+MZ1-A|B	BRD4 BD2	VCB:MZ1	5T35	calculated by cycle closure	conditional Kd	0.84	NA	NA	NA	nM	derived control target	BRD4 BD2 recruitment to prebound ligand	https://doi.org/10.1038/nchembio.2329
+MZ1-alpha	VCB / BRD4 BD2	MZ1	5T35	reverse ITC, 25 C	alpha	17.6	NA	NA	NA	ratio	same benchmark molecule	cooperativity	https://doi.org/10.1038/nchembio.2329
+MZ1-QVK	VCB	BRD4 BD2 QVK:MZ1	NA	reverse ITC, 25 C	conditional Kd	14.9	0.1	0.1	SEM	nM	interface mutant control	weaker ternary recruitment with same ligand	https://doi.org/10.1038/nchembio.2329
+RMC7977-B	human CypA	RMC-7977	8TBM	steady-state SPR	Kd	195	138	275	95pct_CI_bounds	nM	other CypA macrocycle	exact alternate CypA binary control	https://doi.org/10.1038/s41586-024-07205-6
+RMC7977-A|B	KRAS G12V GMPPNP	CypA:RMC-7977	8TBM	steady-state SPR	conditional Kd	85	74	98	95pct_CI_bounds	nM	other target and chemotype	alternate conditional recruitment control	https://doi.org/10.1038/s41586-024-07205-6
+RMC7977-A-null	KRAS G12V GMPPNP	RMC-7977 alone	8TBM	SPR	binding	undetected	NA	NA	NA	NA	other target and chemotype	negative free-ligand target interaction	https://doi.org/10.1038/s41586-024-07205-6
+B-full-binary	TBXT or CypA	intact reference B probe	NA	NA	Kd	NA	NA	NA	NA	nM	project candidate	no direct published measurement identified	NA
+C-full-binary	TBXT or CypA	intact reference C probe	NA	NA	Kd	NA	NA	NA	NA	nM	project candidate	no direct published measurement identified	NA
+B/C-full-ternary	TBXT and CypA	intact reference B or C probe	NA	NA	conditional Kd or alpha	NA	NA	NA	NA	NA	project candidate	no direct published measurement identified	NA

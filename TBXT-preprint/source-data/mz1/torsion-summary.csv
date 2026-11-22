@@ -1,0 +1,5 @@
+case,prior,ligand_cutoff_A,protein_cutoff_A,N,T,P,TP,TD,TPD,TP_inner_footprint,streams,sparse_TP,steric_factor,steric_factor_finite_bootstrap,steric_factor_lo,steric_factor_hi,coupling_kcal_mol,coupling_kcal_mol_finite_bootstrap,coupling_kcal_mol_lo,coupling_kcal_mol_hi,relative_DNA_access,relative_DNA_access_finite_bootstrap,relative_DNA_access_lo,relative_DNA_access_hi,DNA_penalty_kcal_mol,DNA_penalty_kcal_mol_finite_bootstrap,DNA_penalty_kcal_mol_lo,DNA_penalty_kcal_mol_hi
+5T35,torsion,2.2,2.6,65536,15938,25888,2685,0,0,0,64,False,0.42647335061186575,2000,0.41172698653120043,0.44075511351305785,0.5080518587911026,2000,0.4884145793589681,0.5290304208221762,,0,,,,0,,
+5T35,torsion,2.2,3.0,65536,15938,25888,2278,0,0,0,64,False,0.36182729709267414,2000,0.3480166840324721,0.37466516422450025,0.6060505563731622,2000,0.5852649682346994,0.6292511252930607,,0,,,,0,,
+5T35,torsion,2.6,2.6,65536,0,20706,0,0,0,0,64,True,,0,,,,0,,,,0,,,,0,,
+5T35,torsion,2.6,3.0,65536,0,20706,0,0,0,0,64,True,,0,,,,0,,,,0,,,,0,,

@@ -1,0 +1,5 @@
+case	receptor	full_conformers	retained_head_le_2A	score_min	score_max	local_score_min	local_score_max	local_head_rmsd_A_min	local_head_rmsd_A_max
+B	5QS1	5	5	-3.141	-2.58	-4.427	-3.047	0.527904	0.621831
+B	9GHY	5	5	-6.862	-5.911	-8.09	-6.554	0.320435	0.578383
+C	5QSE-to-WT	5	5	-2.503	-2.117	-4.281	-3.141	0.683047	1.054119
+C	9GHY	5	5	-6.214	-5.891	-6.957	-6.34	0.237683	0.489187

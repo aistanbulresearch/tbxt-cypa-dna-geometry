@@ -1,0 +1,54 @@
+[
+  {
+    "case": "B",
+    "aligned_core_rmsd_A": 1.009766694447618,
+    "core_atoms": 152,
+    "contact_pairs": 23,
+    "n_accepted": 65,
+    "n_tested": 8193,
+    "closest": {
+      "draw": 815,
+      "RMSD_A": 1.497719437472012,
+      "contact_fraction": 0.9565217391304348,
+      "gap_A": 2.7523716230738366
+    },
+    "median": {
+      "draw": 1887,
+      "RMSD_A": 2.5500445211758924,
+      "contact_fraction": 0.8695652173913043,
+      "gap_A": 2.7163952609487767
+    },
+    "upper": {
+      "draw": 1551,
+      "RMSD_A": 2.7246514474897854,
+      "contact_fraction": 0.782608695652174,
+      "gap_A": 2.8537346911874657
+    }
+  },
+  {
+    "case": "C",
+    "aligned_core_rmsd_A": 1.1443862144263461,
+    "core_atoms": 152,
+    "contact_pairs": 23,
+    "n_accepted": 9,
+    "n_tested": 8193,
+    "closest": {
+      "draw": 623,
+      "RMSD_A": 2.3530710897170164,
+      "contact_fraction": 0.9565217391304348,
+      "gap_A": 2.6909937627919693
+    },
+    "median": {
+      "draw": 3791,
+      "RMSD_A": 2.8288882492173335,
+      "contact_fraction": 0.9565217391304348,
+      "gap_A": 2.7453161200050875
+    },
+    "upper": {
+      "draw": 2661,
+      "RMSD_A": 2.909286684104148,
+      "contact_fraction": 0.7391304347826086,
+      "gap_A": 2.601442713727816
+    }
+  }
+]
