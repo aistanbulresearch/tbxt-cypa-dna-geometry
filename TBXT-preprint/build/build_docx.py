@@ -13,7 +13,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.opc.constants import RELATIONSHIP_TYPE
-from docx.shared import Inches, Pt, RGBColor
+from docx.shared import Inches, Mm, Pt, RGBColor
 from PIL import Image
 
 
@@ -69,10 +69,10 @@ def design(document):
     ref_format.keep_together = True
     style(document, "Footer", "Arial", 9, color="4A4A4A")
     sect = document.sections[0]
-    sect.page_width = Inches(8.5)
-    sect.page_height = Inches(11)
-    sect.left_margin = sect.right_margin = Inches(.86)
-    sect.top_margin = sect.bottom_margin = Inches(.76)
+    sect.page_width = Mm(210)
+    sect.page_height = Mm(297)
+    sect.left_margin = sect.right_margin = (sect.page_width - Inches(BODY_WIDTH)) // 2
+    sect.top_margin = sect.bottom_margin = Inches(.65)
     sect.footer_distance = Inches(.39)
     footer = sect.footer.paragraphs[0]
     footer.alignment = WD_ALIGN_PARAGRAPH.RIGHT

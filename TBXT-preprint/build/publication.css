@@ -1,6 +1,6 @@
 @page {
-  size: Letter;
-  margin: .76in .86in .76in;
+  size: A4;
+  margin: .65in 18.894mm;
   @bottom-right {
     content: counter(page);
     color: #4a4a4a;
