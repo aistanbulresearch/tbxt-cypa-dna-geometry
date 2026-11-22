@@ -12,6 +12,7 @@ html { color: #171717; }
 body { margin: 0; }
 article { font: 11pt/1.37 Georgia, "Times New Roman", serif; }
 p { margin: 0 0 7pt; orphans: 2; widows: 2; }
+article > p:not(.metadata):not(.caption):not(.table-caption):not(.reference) { text-align: justify; }
 h1, h2, h3, h4 {
   color: #000;
   font-family: Arial, sans-serif;

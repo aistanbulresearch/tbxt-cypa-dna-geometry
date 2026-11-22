@@ -51,7 +51,8 @@ def style(document, name, font, size, *, above=0, below=0, lines=1.2,
 
 
 def design(document):
-    style(document, "Normal", "Georgia", 11, below=7, lines=1.18, color="171717")
+    body = style(document, "Normal", "Georgia", 11, below=7, lines=1.18, color="171717")
+    body.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     style(document, "Title", "Arial", 24, below=11, lines=1.08, bold=True, keep=True)
     style(document, "Heading 1", "Arial", 15, above=16, below=6, bold=True, keep=True)
     style(document, "Heading 2", "Arial", 12, above=11, below=5, bold=True, keep=True)
