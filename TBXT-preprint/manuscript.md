@@ -2,7 +2,7 @@
 
 **Ozge A. Cavus¹ and Aysegul Kuskucu²**
 
-¹ AIstanbul Research Group
+¹ AIstanbul Research Group, Istanbul, Turkey
 
 ² Department of Medical Genetics, Faculty of Medicine, Yeditepe University, Istanbul, Türkiye
 
